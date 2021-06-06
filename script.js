@@ -41,8 +41,13 @@ setInterval(() => {
     offsetY = Math.abs(dy-oy);
  //console.log(offsetX,offsetY)
     if (offsetX< 113 && offsetY<52){
-        gameover.style.visibility = 'visible';
+        gameover.innerHTML = 'Game Over - Reload to Start Over';
         obstacle.classList.remove('obstacleAni')     
+    audiogo.play();
+    setTimeout(() => {
+        audio.pause();
+    }, 1000);   
+   
     }
     else if(offsetX< 75 && cross){
         score+=1;
