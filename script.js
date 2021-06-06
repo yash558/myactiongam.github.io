@@ -70,3 +70,19 @@ function updateScore(score){
     scoreCont.innerHTML= "Your Score:" + score
     
 }
+
+function restartGame(){
+    score = 0
+    cross = true
+
+    obstacle = document.querySelector('.obstacle');
+    obstacle.classList.add('obstacleAni')
+    obstacle.style.left = "70vw"
+    obstacle.style.bottom = "0px"
+
+    dino = document.querySelector('.dino');
+    dino.style.left = "10px"
+    dino.style.bottom = "0px"
+    
+
+}

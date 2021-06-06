@@ -74,6 +74,15 @@ animation: obstacleAni 6s linear infinite;
     font-style: oblique;
 }   
 
+#restartButton{
+    position: absolute;
+    left: 45px;
+    top: 31px;
+    background-color: rgba(12,12,12, 0.5);
+    padding: 10px;
+    color: white;
+}
+
 @keyframes obstacleAni{
  0%{
         left: 100vw;
