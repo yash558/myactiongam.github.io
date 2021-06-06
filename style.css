@@ -55,12 +55,12 @@ animation: obstacleAni 6s linear infinite;
 
 .gameover{
     position: relative;
-    top: 63px;
-    font-size: 53px;
+    top: 10px;
+    font-size: 40px;
     text-align: center;
-    font-style: oblique;
-    visibility: hidden;
-    font-family:sans-serif;
+    font-style: oblique;    
+    font-family:'Ubuntu',sans-serif;
+    padding: 30px;
 }
     #scoreCont{
     color: purple;
@@ -70,7 +70,7 @@ animation: obstacleAni 6s linear infinite;
     top: 31px;
     border: 2px solid black;
     padding: 11px;
-    font-family: sans-serif;   
+    font-family: 'Ubuntu',sans-serif;   
     font-style: oblique;
 }   
 
